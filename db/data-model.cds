@@ -6,6 +6,10 @@ context master
         key ID: UUID;
         title: String;
         done: Boolean;
+    },
+    entity Items {
+        key ID: UUID;
+        item_name: String;
     }
 }
 
